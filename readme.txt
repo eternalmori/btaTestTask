@@ -5,3 +5,7 @@ Tas automātiski atvērsies, un veiksmīgi izies cauri visiem soļiem, un aizvē
 
 problēmas, kas varētu būt - es izmantoju firefox lai testētu, to var nomainīt uz default izkomentējot arā koda līniju.
 katru reizi kad atvēru mājaslapu testa vidē, bija cookies pop-up, kā aiztaisīšanu iekļāvu automatizētajā testā.
+
+Ja rodas kādas problēmas, lūdzu padodiet ziņu,
+visu labāko,
+Dāvis Oļševskis - olsevskisdvs@gmail.com
