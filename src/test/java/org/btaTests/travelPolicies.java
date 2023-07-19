@@ -35,7 +35,8 @@ public class travelPolicies {
         $(By.id("form-travel-policy")).shouldBe(visible);
         $(By.xpath("//*[@id=\"form-travel-policy\"]/section/div[2]/button[2]")).click();
         //check for the pop-up form
-            $(By.xpath("//*[@id=\"page-one-travel\"]/div[1]/aside/div/button")).click();
+            $(By.cssSelector(".popups .single-popup.covered-travel>.wrapper")).shouldBe(visible);
+        $(By.xpath("//*[@id=\"page-one-travel\"]/div[1]/aside/div/button")).click();
         $(By.xpath("//*[@id=\"form-travel-policy\"]/section/div[2]/button[1]")).click();
         //check if the name, last name and identity number fields are empty
             $(By.id("travelerFirstName0-text")).shouldBe(empty);
